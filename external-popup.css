@@ -1,0 +1,35 @@
+div#speedbump {
+  display: none;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #eeeeee;
+}
+#speedbump h4.modal-title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #004795;
+  font-size:2.5em;	
+}
+.modal-body p {
+  text-align:center;
+  font-size: 1em;
+}
+button.btn-modal:hover {
+  cursor: pointer;
+}
+button.btn-modal.btn-continue {
+  background-color: #8bc63e;
+  border: 0px;
+  margin: 1% 0;
+}
+button.btn-modal.btn-close {
+  background-color: inherit;
+  border: 1px solid #030000;
+  color: #030000;
+  font-weight: 400;
+}
+.modal-header .close {
+  font-size: 3.5em;
+}
